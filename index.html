@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link href="styles.css" rel="stylesheet">
+        <script>
+             $(document).ready(function(){
+                const myTimeout = setTimeout(myGreeting, 2000);
+
+                function myGreeting() {
+                    alert('Welcome to my Website :) ');
+                }
+
+            });
+        </script>
+        <title>Duta Teknologi DKI Jakarta Tahun 2023</title>
+
+    </head>
+    <body>
+        <!-- NAVBAR START -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+            <a class="navbar-brand pl-1" href="#">Duta Teknologi DKI Jakarta Tahun 2023</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#best">Praktik Baik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plan">Program Kerja</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAVBAR END -->
+        <!-- BANNER HEADER -->
+        <div class="header">
+            <img src="img/banner.png" style="width:100%; object-fit: contain;">
+        </div>
+
+
+        <div class="container">
+            <!-- PROFILE  STARTS-->
+            <div class="profile" id="profile">
+                <div class="row ">
+                    <div class="col-lg-6 col-lg-6">
+                        <img src="img/profile.png" class="img-profile">
+                        <br>
+                        <h3>I'm Syahidah Humairoh</h3>
+                        <h4>Informatics Teacher at 126 Junior High School</h4>
+                        <p>I was appointed as the 2023 DKI Jakarta Technology Ambassador of Kemendikbudristek. I enjoy collaborating to learn together about ICT-based learning</p>
+                    </div>
+                    <div class="col-lg-6 col-lg-6">
+                        <h4>Here's my project learning media portfolio</h4>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/por1.png" alt="First slide">
+                                <div class="carousel-caption trans">
+                                    <h3>Membuat Website dengan Canva</h3>
+                                    <p>Website Pembelajaran lebih interaktif dan mudah dengan canva x belajar.id</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="img/por2.png" alt="Second slide">
+                                <div class="carousel-caption trans">
+                                    <h3>Tedugator - Merdeka Belajar</h3>
+                                    <p>Platformer Game edukasi tentang merdeka belajar menggunakan Scratch</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="img/por3.png" alt="Third slide">
+                                <div class="carousel-caption trans">
+                                    <h3>Membuat Game Edukasi dengan Scratch</h3>
+                                    <p>Game Siput untuk mempelajari sistem komputer</p>
+                                  </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                          <br>
+                          <a href="tutorial.html"><button type="button" class="btn btn-primary">Tutorial</button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- PROFILE ENDS -->
+
+        </div>
+        <div class="best">
+            <!-- BEST PRACTICE START -->
+            <div class="container" id="best">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card mb-1">
+                            <img class="card-img-top maximg" src="img/des-ai.jpeg" alt="Moderator materi Artificial intelegence untuk pembelajaran">
+                            <div class="card-body">
+                            <p class="card-text"><h6>6 Desember 2023</h6><br>MGMP SMP Jakarta Timur Wilayah 2 <br> Moderator materi Artificial intelegence untuk pembelajaran</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-1">
+                            <img class="card-img-top maximg" src="img/des-kkg.jpeg" alt="Perjalanan untuk menjadi duta teknologi kemendikbudristek">
+                            <div class="card-body">
+                            <p class="card-text"><h6>7 Desember 2023</h6><br>KKG SD Jakarta Timur Wilayah 2 <br> Perjalanan untuk menjadi duta teknologi kemendikbudristek</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-1">
+                            <img class="card-img-top maximg" src="img/des-pmm.jpeg" alt="Membuat Aksi nyata PMM menggunakan Canva">
+                            <div class="card-body">
+                            <p class="card-text"><h6>14 Desember 2023</h6><br>SMP Negeri 126 Jakarta <br> Membuat Aksi nyata PMM menggunakan Canva</p><br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-1">
+                            <img class="card-img-top maximg" src="img/des-58.jpeg" alt="Membuat Game Edukasi menggunakan Scratch">
+                            <div class="card-body">
+                            <p class="card-text"><h6>15 Desember 2023</h6><br>SMP Negeri 58 Jakarta <br> Membuat Game Edukasi menggunakan Scratch</p><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <a href="practice.html"><button type="button" class="btn btn-primary">View More</button></a>
+            </div>
+            <!-- BEST PRACTICE ENDS -->
+
+        </div>
+        <!-- WORK PLAN STARTS-->
+        <div class="plan" id="plan">
+            <div class="container">
+                <div class="card">
+                    <img class="card-img-top maximg2" src="img/proker.png" alt="Program Kerja">
+                    <div class="card-body">
+                    <p class="card-text"><h6>Program Kerja Tahun 2024 Duta Teknologi Kemendikbudristek DKI Jakarta 2023</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <a href="proker.html"><button type="button" class="btn btn-primary">View More</button></a>
+        </div>
+        <!-- WORK PLAN ENDS -->
+        <div class="footer">
+            <p>syahidah.humairoh@gmail.com</p>
+            <p>087886604248</p>
+            <p>ig : syaa.oo</p>
+            <p>tiktok : @ooaays</p>
+        </div>
+    </body>
+</html>

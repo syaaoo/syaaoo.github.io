@@ -1,0 +1,60 @@
+.header {
+    margin-top: 5rem;
+    background-color: #477bff;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.profile {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.img-profile {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border:5px dotted black;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.trans{
+    background: rgba(76, 76, 76, 0.7)
+}
+.best{
+    background-color: #e3f2fd;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.maximg{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+.maximg2{
+    width:100%;
+    height:410px;
+    object-fit: contain;
+}
+.plan{
+
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.pdf{
+    width:100%;
+    height:500px;
+
+}
